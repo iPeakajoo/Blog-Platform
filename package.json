@@ -1,0 +1,27 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPeakajoo/Blog-Platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPeakajoo/Blog-Platform/issues"
+  },
+  "homepage": "https://github.com/iPeakajoo/Blog-Platform#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "flowbite": "^1.8.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
