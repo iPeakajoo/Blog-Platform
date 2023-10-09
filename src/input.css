@@ -50,6 +50,16 @@ html,body {
   background-position: center;
   border: #000 5px solid;
   height: 725px;
+}
+
+.main-header-1 {
+  background-color: #6a9c89;
+	background: url(../src/img/conversations.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center;
+  border: #000 5px solid;
+  height: 725px;
 
 }
 
