@@ -883,6 +883,10 @@ input[type="range"]::-ms-fill-lower {
   margin-right: auto;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -903,8 +907,16 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 2rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .grid {
@@ -929,6 +941,10 @@ input[type="range"]::-ms-fill-lower {
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-3 {
@@ -1022,8 +1038,17 @@ input[type="range"]::-ms-fill-lower {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-b-2xl {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .rounded-l-lg {
@@ -1034,6 +1059,16 @@ input[type="range"]::-ms-fill-lower {
 .rounded-r-lg {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .rounded-tl-3xl {
@@ -1062,6 +1097,15 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1074,6 +1118,10 @@ input[type="range"]::-ms-fill-lower {
   padding: 2rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1082,6 +1130,11 @@ input[type="range"]::-ms-fill-lower {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -1097,6 +1150,11 @@ input[type="range"]::-ms-fill-lower {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-xs {
@@ -1149,6 +1207,12 @@ html,body {
   border-radius: 10px;
 }
 
+.bt-green-top {
+  background-color: #6a9c89;
+  color: #fff;
+  padding: 10px 15px;
+}
+
 .bt-white{
   color: #000;
   padding: 10px 15px;
@@ -1176,4 +1240,23 @@ html,body {
   background-position: center;
   border: #000 5px solid;
   height: 725px;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+th {
+  width: 20%;
+  text-align: right;
+}
+
+tr{
+  border-bottom: 1px solid #6a9c89;
+}
+
+td {
+  text-align: left;
+  padding-left: 15px;
 }
